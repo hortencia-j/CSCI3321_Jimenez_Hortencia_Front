@@ -1,0 +1,51 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+
+body{
+    color: white;
+	font-family: Consolas,"Lucida Console", "Lucida Sans Typewriter", monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'main main main main main main';
+    grid-gap: 10px;
+    background-color: #330066;
+    padding: 10px;
+}
+
+
+.logo{
+    display: inline-block;
+    padding-right: 55%;
+    height: 20%;
+    width: auto;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-style: outset;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(104, 28, 158);
+}
+
+main {
+    margin: 5px;
+    padding: 20px;
+    color: black;
+    background-color: rgb(241, 231, 231);
+    text-align: center;
+}
+
+.pic {
+    padding-top: 20px;
+}

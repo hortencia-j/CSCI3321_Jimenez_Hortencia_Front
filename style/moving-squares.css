@@ -9,7 +9,7 @@ body{
     height: 450px;
     margin: 30px;
     display: inline-block;
-    transition: width 2s, height 2s, transform 2s;;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .container:hover{
@@ -35,7 +35,7 @@ body{
     margin-left: 45%;
     margin-top: 2px;
     text-align: center;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 3s;
 }
 
 #odd{

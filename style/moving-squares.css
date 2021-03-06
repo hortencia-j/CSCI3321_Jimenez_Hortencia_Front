@@ -1,0 +1,47 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.container{
+    background-color: cornsilk;
+    width: 800px;
+    height: 450px;
+    margin: 30px;
+    display: inline-block;
+    transition: width 2s, height 2s, transform 2s;;
+}
+
+.container:hover{
+    border-radius: 25px;
+    padding:30px;
+    height: 500px;
+}
+
+.container:hover #even{ 
+    transform: translate(-350px, -25px) rotate(1080deg) scale(2,2);
+}
+
+.container:hover #odd{
+    transform: translate(410px) rotate(-1080deg) scale(.75,.75);
+}
+
+.b {
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-top: 2px;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#odd{
+    background-color: rgb(255, 242, 121);
+}
+
+#even {
+    background-color: coral;
+}

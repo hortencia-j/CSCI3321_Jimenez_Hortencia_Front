@@ -3,6 +3,15 @@ body{
     font-family: Consolas,"Lucida Console", "Lucida Sans Typewriter", monospace
 }
 
+.contContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
 .display{grid-area: display; background-color: white; padding-top: 30px;}
 .plus{grid-area: plus; background-color: white; padding-top: 30px;}
 .minus{grid-area: minus; background-color: white; padding-top: 30px;}

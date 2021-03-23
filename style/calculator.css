@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+    font-family: Consolas,"Lucida Console", "Lucida Sans Typewriter", monospace
+}
+
+.display{grid-area: display; background-color: white; padding-top: 30px;}
+.plus{grid-area: plus; background-color: white; padding-top: 30px;}
+.minus{grid-area: minus; background-color: white; padding-top: 30px;}
+.multiply{grid-area: mult; background-color: white; padding-top: 30px;} 
+.divide{grid-area: divide; background-color: white; padding-top: 30px;}
+.nine{grid-area: nine; background-color: white; padding-top: 30px;}
+.eight{grid-area: eight; background-color: white; padding-top: 30px;}
+.seven{grid-area: seven; background-color: white; padding-top: 30px;}
+.six{grid-area: six; background-color: white; padding-top: 30px;}
+.five{grid-area: five; background-color: white; padding-top: 30px;}
+.four{grid-area: four; background-color: white; padding-top: 30px;}
+.three{grid-area: three; background-color: white; padding-top: 30px;}
+.two{grid-area: two; background-color: white; padding-top: 30px;}
+.one{grid-area: one; background-color: white; padding-top: 30px;}
+.zero{grid-area: zro; background-color: white; padding-top: 30px;}
+.equals{grid-area: equals; background-color:aquamarine; padding-top: 125%;} 
+.AC{grid-area: AC; background-color: white; padding-top: 30px;} 
+
+
+.calcContainer{
+    max-height: 449px;
+    max-width: 499px;
+    min-width: 301px;
+    padding: 5px;
+    text-align: center;
+    background-color: #778899;
+    width: 375px;
+    height: 425px;
+    grid-gap: 5px;
+    display: grid;
+    grid-template: 
+        'display display display display'
+        'plus divide mult minus'
+        'seven eight nine equals'
+        'four five six equals'
+        'one two three equals'
+        'zro AC AC equals';
+}

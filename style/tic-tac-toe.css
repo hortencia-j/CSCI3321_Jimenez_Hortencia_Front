@@ -1,0 +1,51 @@
+
+body{
+    background-color: mistyrose;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.message{
+    color: black;
+}
+
+#bm{grid-area: bm;}
+#bl{grid-area: bl;}
+#br{grid-area: br;}
+#tl{grid-area: tl;}
+#tm{grid-area: tm;}
+#tr{grid-area: tr;}
+#ml{grid-area: ml;}
+#mm{grid-area: mm;}
+#mr{grid-area: mr;}
+
+.contContainer, .message{
+    padding-top: 20px;
+    display: inline-block;
+    max-width: 500px;
+    max-height: 500px;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 1%;
+    border: 2px solid black;
+    background-color: lightskyblue;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template:
+    'tl tm tr'
+    'ml mm mr'
+    'bl bm br';
+}
+
+.box{
+    background-color: thistle;
+}
